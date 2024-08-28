@@ -1,0 +1,19 @@
+<div style="margin-bottom:16px;padding-bottom:8px" class="border-bottom row">
+  <div class="col-9">
+    <h4 style="margin-bottom:4px ;color:rgb(20,200,20)">
+    {{som["name"]}} 
+    </h4> 
+    <div style="font-size:20px ;color:rgb(100,100,200)">
+      <b>age</b>:{{som["age"]}}
+    </div>
+    {% if "id" in som %}       
+    <div style="font-size:20px;color:rgb(10,10,2)">
+      <b>id</b>:{{som["id"]}}
+    </div>
+    {% endif %}
+  </div>
+  <div class="col-3">
+    <button type="button" class="btn btn-outline-primary">apply>
+    </button>
+  </div>
+</div>
